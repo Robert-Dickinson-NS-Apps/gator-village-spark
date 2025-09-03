@@ -1,13 +1,18 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { DiamondVillageHero } from "@/components/DiamondVillageHero";
+import { CommunityFeatures } from "@/components/CommunityFeatures";
+import { CommunityGallery } from "@/components/CommunityGallery";
+import { LeadershipSection } from "@/components/LeadershipSection";
+import { HistoryTimeline } from "@/components/HistoryTimeline";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="min-h-screen">
+      <DiamondVillageHero />
+      <CommunityFeatures />
+      <CommunityGallery />
+      <LeadershipSection />
+      <HistoryTimeline />
+    </main>
   );
 };
 
