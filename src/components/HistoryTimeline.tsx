@@ -6,7 +6,7 @@ export const HistoryTimeline = () => {
     {
       year: "Post-WWII Era",
       title: "Origins & Foundation",
-      description: "Diamond Village conceived to house returning veterans and their families under the GI Bill, replacing Flavet I and II housing.",
+      description: "Diamond Village UF conceived to house returning veterans and their families under the GI Bill, replacing Flavet I and II housing.",
       badge: "Foundation",
       color: "bg-primary"
     },
@@ -41,7 +41,7 @@ export const HistoryTimeline = () => {
             A Legacy of Community
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            From post-war housing to modern family community - the Diamond Village story
+            From post-war housing to modern family community - the Diamond Village UF story
           </p>
         </div>
 
@@ -94,10 +94,10 @@ export const HistoryTimeline = () => {
           <Card className="bg-gradient-to-r from-gator-orange/10 to-gator-blue/10 border-primary/20">
             <CardContent className="p-8 text-center">
               <h3 className="text-2xl font-bold text-primary mb-4">
-                Diamond Village & SWMM Legacy
+                Diamond Village UF & SWMM Legacy
               </h3>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                Diamond Village's connection to UF's engineering excellence continues through 
+                Diamond Village UF's connection to UF's engineering excellence continues through 
                 alumni like Robert Dickinson, who has spent 50 years advancing SWMM (Storm Water 
                 Management Model) technology at Innovyze/Autodesk, bridging the gap between 
                 academic research and real-world applications.

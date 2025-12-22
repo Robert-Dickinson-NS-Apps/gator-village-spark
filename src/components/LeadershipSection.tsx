@@ -12,7 +12,7 @@ export const LeadershipSection = () => {
             Community Leadership
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Diamond Village's unique governance model has fostered generations of leaders
+            Diamond Village UF's unique governance model has fostered generations of leaders
           </p>
         </div>
 
@@ -26,7 +26,7 @@ export const LeadershipSection = () => {
                 </div>
                 <div>
                   <CardTitle className="text-2xl">Robert Dickinson</CardTitle>
-                  <p className="text-white/90">Former Diamond Village Mayor</p>
+                  <p className="text-white/90">Former Diamond Village UF Mayor</p>
                 </div>
               </div>
             </CardHeader>
@@ -55,7 +55,7 @@ export const LeadershipSection = () => {
               <p className="text-muted-foreground">
                 Robert served in multiple leadership roles, fostering community building through 
                 holiday parties, potlucks, and family outings. His leadership helped establish 
-                traditions that enriched the quality of life in Diamond Village.
+                traditions that enriched the quality of life in Diamond Village UF.
               </p>
               
               <div className="pt-4">
@@ -85,7 +85,7 @@ export const LeadershipSection = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  Diamond Village operates under a distinctive leadership structure with elected 
+                  Diamond Village UF operates under a distinctive leadership structure with elected 
                   mayors and vice mayors, giving residents direct voice in community decisions.
                 </p>
                 <ul className="list-disc list-inside space-y-2 text-sm">
