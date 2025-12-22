@@ -49,7 +49,7 @@ export const CommunityFeatures = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            What Makes Diamond Village Special
+            What Makes Diamond Village UF Special
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             More than just housing - a supportive ecosystem designed for student families

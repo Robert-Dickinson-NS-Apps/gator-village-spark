@@ -15,7 +15,7 @@ export const DiamondVillageHero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center text-white">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 drop-shadow-2xl">
-          Diamond Village
+          Diamond Village UF
         </h1>
         <p className="text-xl md:text-2xl font-medium mb-4 max-w-3xl mx-auto drop-shadow-lg">
           University of Florida's Premier Graduate & Family Housing Community

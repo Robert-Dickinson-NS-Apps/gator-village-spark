@@ -7,19 +7,19 @@ export const CommunityGallery = () => {
   const images = [
     {
       src: diamondVillageMain,
-      alt: "Diamond Village aerial view",
-      title: "Diamond Village Overview",
+      alt: "Diamond Village UF aerial view",
+      title: "Diamond Village UF Overview",
       description: "Graduate and family housing community at the heart of UF campus"
     },
     {
       src: diamondVillageCommunity,
-      alt: "Diamond Village community life",
+      alt: "Diamond Village UF community life",
       title: "Community Living",
       description: "Students and families enjoying the close-knit atmosphere"
     },
     {
       src: diamondVillageMap,
-      alt: "Diamond Village location map",
+      alt: "Diamond Village UF location map",
       title: "Campus Location",
       description: "Strategic location near UF Shands and the College of Medicine"
     }
@@ -30,7 +30,7 @@ export const CommunityGallery = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            Diamond Village Gallery
+            Diamond Village UF Gallery
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Explore the beautiful community that has been home to generations of Gator families
