@@ -9,10 +9,10 @@ export const LeadershipSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            Community Leadership
+            My Leadership Journey
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Diamond Village UF's unique governance model has fostered generations of leaders
+            How Diamond Village UF's unique governance model shaped my path from student leader to engineering professional
           </p>
         </div>
 
@@ -53,9 +53,9 @@ export const LeadershipSection = () => {
               </div>
               
               <p className="text-muted-foreground">
-                Robert served in multiple leadership roles, fostering community building through 
-                holiday parties, potlucks, and family outings. His leadership helped establish 
-                traditions that enriched the quality of life in Diamond Village UF.
+                During my time as Village Mayor, I had the privilege of fostering community building through 
+                holiday parties, potlucks, and family outings. These leadership experiences helped establish 
+                traditions that enriched our quality of life and shaped my career path.
               </p>
               
               <div className="pt-4">

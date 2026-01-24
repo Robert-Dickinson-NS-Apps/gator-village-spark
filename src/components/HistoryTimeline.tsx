@@ -38,10 +38,10 @@ export const HistoryTimeline = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            A Legacy of Community
+            Our Story Through the Years
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            From post-war housing to modern family community - the Diamond Village UF story
+            Tracing the history that shaped our Diamond Village UF experience
           </p>
         </div>
 
@@ -94,13 +94,13 @@ export const HistoryTimeline = () => {
           <Card className="bg-gradient-to-r from-gator-orange/10 to-gator-blue/10 border-primary/20">
             <CardContent className="p-8 text-center">
               <h3 className="text-2xl font-bold text-primary mb-4">
-                Diamond Village UF & SWMM Legacy
+                From Diamond Village UF to SWMM: My Career Path
               </h3>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                Diamond Village UF's connection to UF's engineering excellence continues through 
-                alumni like Robert Dickinson, who has spent 50 years advancing SWMM (Storm Water 
-                Management Model) technology at Innovyze/Autodesk, bridging the gap between 
-                academic research and real-world applications.
+                Living in Diamond Village UF during my graduate studies at UF laid the foundation 
+                for my 50-year career advancing SWMM (Storm Water Management Model) technology 
+                at Innovyze/Autodesk. The community's emphasis on leadership and collaboration 
+                shaped how I approach bridging academic research and real-world applications.
               </p>
             </CardContent>
           </Card>
