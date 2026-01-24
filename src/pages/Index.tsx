@@ -3,6 +3,7 @@ import { CommunityFeatures } from "@/components/CommunityFeatures";
 import { CommunityGallery } from "@/components/CommunityGallery";
 import { LeadershipSection } from "@/components/LeadershipSection";
 import { HistoryTimeline } from "@/components/HistoryTimeline";
+import { ContactSection } from "@/components/ContactSection";
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
       <CommunityGallery />
       <LeadershipSection />
       <HistoryTimeline />
+      <ContactSection />
     </main>
   );
 };
