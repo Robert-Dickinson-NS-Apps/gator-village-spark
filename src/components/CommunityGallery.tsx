@@ -81,10 +81,10 @@ export const CommunityGallery = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            Diamond Village UF Gallery
+            Photo Archives
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Explore the beautiful community that has been home to generations of Gator families
+            A personal collection of photos capturing life in the Diamond Village UF community
           </p>
           <p className="text-sm text-muted-foreground mt-2">
             Click any image to view in full screen

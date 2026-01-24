@@ -14,22 +14,25 @@ export const DiamondVillageHero = () => {
       
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center text-white">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 drop-shadow-2xl">
-          Diamond Village UF
+        <p className="text-sm md:text-base uppercase tracking-widest mb-4 opacity-80 drop-shadow-lg">
+          A Personal History
+        </p>
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 drop-shadow-2xl leading-tight">
+          The Diamond Village UF Archives
         </h1>
         <p className="text-xl md:text-2xl font-medium mb-4 max-w-3xl mx-auto drop-shadow-lg">
-          University of Florida's Premier Graduate & Family Housing Community
+          Memories, Photos & Stories from UF's Historic Graduate Housing Community
         </p>
         <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-90 drop-shadow-lg">
-          A legacy of leadership, community, and academic excellence since the post-World War II era
+          A personal collection documenting life, leadership, and lasting connections forged in this unique Gator community
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <GatorButton variant="hero" size="xl">
-            Explore Our History
+            Explore the Archives
           </GatorButton>
           <GatorButton variant="gator-outline" size="xl" className="bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white hover:text-primary">
-            Meet the Community
+            View Photo Gallery
           </GatorButton>
         </div>
       </div>
