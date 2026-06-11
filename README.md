@@ -1,73 +1,68 @@
-# Welcome to your Lovable project
+# Gator Village Spark
 
-## Project info
+> _README added by Robert Dickinson via Comet._
 
-**URL**: https://lovable.dev/projects/396b22af-426a-4f4b-ae16-5bc18cf763f4
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
+![shadcn/ui](https://img.shields.io/badge/shadcn--ui-000000?logo=shadcnui&logoColor=white)
 
-## How can I edit this code?
+## About
 
-There are several ways of editing your application.
+**Gator Village Spark** is a single-page community website built with React and TypeScript. It presents a community/village ("Diamond Village") through a hero banner, a history timeline, leadership profiles, a community gallery, feature highlights, a SWMM career section, and a contact section.
 
-**Use Lovable**
+The site is part of the SWMMEnablement collection and is built on a modern Vite + React + TypeScript frontend styled with Tailwind CSS and shadcn/ui components.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/396b22af-426a-4f4b-ae16-5bc18cf763f4) and start prompting.
+## What's Inside
 
-Changes made via Lovable will be committed automatically to this repo.
+| Area | Description |
+| --- | --- |
+| `src/components/DiamondVillageHero.tsx` | Hero / landing banner section |
+| `src/components/HistoryTimeline.tsx` | Community history timeline |
+| `src/components/LeadershipSection.tsx` | Leadership / team profiles |
+| `src/components/CommunityFeatures.tsx` | Highlighted community features |
+| `src/components/CommunityGallery.tsx` | Image gallery section |
+| `src/components/SwmmCareerSection.tsx` | SWMM-focused career / professional section |
+| `src/components/ContactSection.tsx` | Contact information and form |
+| `src/components/ui/` | shadcn/ui reusable UI primitives |
+| `src/assets/` | Images and static assets |
+| `public/` | Public static files |
 
-**Use your preferred IDE**
+## Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+| Layer | Technology |
+| --- | --- |
+| Language | TypeScript |
+| Framework | React |
+| Build tool | Vite |
+| Styling | Tailwind CSS |
+| UI components | shadcn/ui |
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Getting Started
 
-Follow these steps:
+```bash
+# Clone the repository
+git clone https://github.com/SWMMEnablement/gator-village-spark.git
+cd gator-village-spark
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Install dependencies
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Then open the local URL printed by Vite (typically http://localhost:5173) in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+# Build for production
+npm run build
 
-**Use GitHub Codespaces**
+# Preview the production build
+npm run preview
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## License
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/396b22af-426a-4f4b-ae16-5bc18cf763f4) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+No license file is currently included. Contact the SWMMEnablement organization regarding reuse.
