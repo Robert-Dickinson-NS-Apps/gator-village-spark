@@ -65,4 +65,4 @@ npm run preview
 
 ## License
 
-No license file is currently included. Contact the SWMMEnablement organization regarding reuse.
+Released under the MIT License.
